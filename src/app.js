@@ -10,8 +10,8 @@ app.use(cors());
 app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.send('Hello World')
-})
+  res.send('✅ Backend is live!');
+});
 
 app.use('/ai', aiRoutes)
 
